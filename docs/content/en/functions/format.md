@@ -25,7 +25,7 @@ toc: true
 * `.Date`
 * `.Lastmod`
 
-Assuming a key-value of `date: 2017-03-03` in a content file's front matter, your can run the date through `.Format` followed by a layout string for your desired output at build time:
+Assuming a key-value of `date: 2017-03-03` in a content file's front matter, you can run the date through `.Format` followed by a layout string for your desired output at build time:
 
 ```
 {{ .PublishDate.Format "January 2, 2006" }} => March 3, 2017
